@@ -1,0 +1,23 @@
+# Vite
+dist
+.vite
+
+# Node
+node_modules
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# IDE
+.vscode
+.idea
+.DS_Store
+
+# Netlify
+.netlify
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+*.tsbuildinfo
