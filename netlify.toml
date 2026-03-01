@@ -1,0 +1,15 @@
+[build]
+  # Command Netlify will run to build the site
+  command = "npm run build"
+  # Vite outputs to `dist` by default
+  publish = "dist"
+
+  # Optionally pin Node version used by Netlify (uncomment and set if needed)
+  # environment = { NODE_VERSION = "18" }
+
+[[redirects]]
+  # Redirect all requests to index.html for client-side routing (React Router)
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
