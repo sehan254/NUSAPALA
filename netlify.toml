@@ -7,13 +7,6 @@
   # Optionally pin Node version used by Netlify (uncomment and set if needed)
   environment = { NODE_VERSION = "20", NODE_ENV = "production" }
 
-[[redirects]]
-  # Redirect all requests to index.html for client-side routing (React Router)
-  from = "/*"
-  to = "/index.html"
-  status = 200
-  force = true
-
 [[headers]]
   for = "/*"
   [headers.values]
