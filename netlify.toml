@@ -1,6 +1,6 @@
 [build]
   # Command Netlify will run to build the site
-  command = "npm install && npm run build"
+  command = "npm install --legacy-peer-deps && npm run build"
   # Vite outputs to `dist` by default
   publish = "dist"
 
